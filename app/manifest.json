@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube tab Sorter",
+  "version": "1.0.0",
+  "description": "Rearrange YouTube tabs by video upload date",
+  "permissions": ["tabs", "*://*.youtube.com/watch?v=*"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "128": "128.png"
+    }
+  }
+}
